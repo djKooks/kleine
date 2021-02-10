@@ -18,15 +18,15 @@ with codecs.open(os.path.join(here, 'requirements.txt')) as f:
     ]
 
 setup(
-    name='kleine',
+    name='kline',
     version='0.1.0',
     description='bla bla bla',
     long_description=readme,
     license=license,
     install_requires=install_requirements,
-    py_modules=['kleine'],
+    py_modules=['kline'],
     entry_points='''
         [console_scripts]
-        kleine=kleine:cli
+        kline=kline:cli
     ''',
 )
